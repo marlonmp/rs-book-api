@@ -9,7 +9,7 @@ pub struct Book {
 
     pub title: String,
     pub author: User,
-    pub subject: String,
+    pub summary: String,
     pub pages: u32,
 
     pub created_at: Date<Local>,
